@@ -29,9 +29,9 @@ const FileUpload: React.FC<FileUploadProps> = ({ onUpload }) => {
       />
       <label
         htmlFor="file-upload"
-        className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 cursor-pointer transition-colors"
+        className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-black hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 cursor-pointer transition-colors"
       >
-        <FiUpload className="mr-2" /> Upload CSV/Excel
+        <FiUpload  className="mr-2 " /> Upload CSV/Excel
       </label>
     </div>
   );
